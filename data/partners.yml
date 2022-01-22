@@ -1,0 +1,8 @@
+- name: Delegación de Alumnos de la Facultad de Informática
+  url: 'https://www.dafium.es/'
+  img: dafi.png
+
+- name: Delegación de Alumnos de la Facultad de Biología
+  url: https://www.um.es/web/biologia/facultad/gestion/delegacion-de-estudiantes
+  img: biologia.png
+  square: true

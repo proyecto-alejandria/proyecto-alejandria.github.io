@@ -1,0 +1,8 @@
+baseURL: https://proyectoalejandria.org/
+languageCode: es-es
+title: Proyecto Alejandría
+theme: alejandria
+
+params:
+  # The action URL for the contact form - must be set in the HUGO_PARAMS_contactURL environment variable
+  contactURL: /contact-mock

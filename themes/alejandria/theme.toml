@@ -1,0 +1,12 @@
+name = "Alejandria"
+license = "MIT"
+licenselink = "https://github.com/proyecto-alejandria/proyecto-alejandria.github.io/blob/master/LICENSE"
+description = ""
+homepage = "https://proyectoalejandria.org/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "StartBootstrap"
+  homepage = "https://github.com/StartBootstrap/startbootstrap-agency"

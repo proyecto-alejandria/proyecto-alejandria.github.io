@@ -1,0 +1,157 @@
+{{ define "main" }}
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead-subheading">Por una información libre y accesible</div>
+      <div class="masthead-heading text-uppercase">{{ .Site.Title }}</div>
+      <a class="btn btn-primary btn-xl text-uppercase" href="#proyecto" role="button" title="Saber Más">Saber Más</a>
+    </div>
+
+    <div class="copyright">
+      <a class="text-muted"
+         href="https://commons.wikimedia.org/wiki/File:Duke_Humfrey%27s_Library_Interior_4,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg"
+         target="_blank"
+         title="Bodleian Library, Oxford, UK - Por David Iliff - Licencia CC BY-SA 3.0">Foto: David Iliff</a>
+    </div>
+  </header>
+
+  <section class="page-section" id="proyecto">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Nuestra Misión</h2>
+        <h3 class="section-subheading text-muted">El objetivo del Proyecto Alejandría es proporcionar una plataforma de almacenamiento de apuntes libre y accesible a los estudiantes de estudios superiores junto a un modelo de gestión de contenido para la organización de comisiones de apuntes.</h3>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Plataforma</h4>
+          <p>Desarrollamos una aplicación web para el alojamiento y compartición de apuntes entre estudiantes, así como para la organización de comisiones de apuntes.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Modelo de gestión</h4>
+          <p>Redactamos un modelo normativo de gestión del contenido para la organización de comisiones de apuntes en delegaciones de estudiantes.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-medkit fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Apoyo y soporte</h4>
+          <p>Proporcionamos apoyo y soporte técnico a las delegaciones de estudiantes y grupos colaboradores para la implantación de nuestro modelo de gestión y creación de apuntes.</p>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <p>El Proyecto Alejandría surge de la necesidad de diversas delegaciones de alumnos por ofrecer a sus estudiantes un lugar donde compartir apuntes de forma segura y centralizada. Los métodos tradicionalmente utilizados (carpetas compartidas en Google Drive, cuentas compartidas de MEGA...) han demostrado a lo largo del tiempo su ineficacia, dando pie a problemas de privacidad, seguridad, ...</p>
+
+        <p>Con este proyecto pretendemos proporcionar los medios necesarios para que cualquier delegación organice sus comisiones de apuntes apoyándose en nuestra plataforma, habilitando así a sus estudiantes para mantener un repositorio común de apuntes de forma accesible, duradera y segura.</p>
+
+        <p>Por supuesto, el proyecto se sustenta en la buena fé de los estudiantes, y por tanto todo el trabajo realizado se distribuye bajo licencias libres tales como <a class="link-dark" href="https://opensource.org/licenses/MIT" target="_blank" title="Licencia MIT">MIT</a>. Del mismo modo, somos una organización sin ánimo de lucro alguno, por lo cual agradecemos cualquier apoyo que se desee realizar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section bg-light" id="hoja-ruta">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Hoja de Ruta</h2>
+        <h3 class="section-subheading text-muted">Estimación prevista para el desarrollo inicial del proyecto</h3>
+      </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-image">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Enero 2022</h4>
+              <h4 class="subheading">Especificación inicial</h4>
+            </div>
+            <div class="timeline-body"><p class="text-muted">Definición del objeto y el alcance del proyecto en una especificación inicial. </p></div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Febrero 2022</h4>
+              <h4 class="subheading">Desarrollo inicial</h4>
+            </div>
+            <div class="timeline-body"><p class="text-muted">Desarrollo del producto mínimo viable de la aplicación web y el borrador del modelo de gestión de forma paralela. </p></div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-image">
+            <i class="fas fa-user-lock"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Marzo 2022</h4>
+              <h4 class="subheading">Beta cerrada</h4>
+            </div>
+            <div class="timeline-body"><p class="text-muted">Creación de las primeras comisiones de apuntes para verificar el diseño de la aplicación y el modelo de gestión. Durante esta fase se estabilizarán ambas partes del proyecto.</p></div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <i class="fas fa-pen-fancy"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Abril 2022</h4>
+              <h4 class="subheading">Creación de contenido</h4>
+            </div>
+            <div class="timeline-body"><p class="text-muted">Uso de la aplicación por parte de las comisiones de apuntes para generar contenido de cara a la inminente convocatoria de exámenes.</p></div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-image">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Mayo-Junio 2022</h4>
+              <h4 class="subheading">Beta pública</h4>
+            </div>
+            <div class="timeline-body"><p class="text-muted">Despliegue abierto de la aplicación para verificar su uso por parte de los estudiantes durante las convocatorias de exámenes.</p></div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Julio 2022</h4>
+              <h4 class="subheading">Refinamiento</h4>
+            </div>
+            <div class="timeline-body"><p class="text-muted">Correcciones de errores y desarrollo de características de mejora de cara al curso siguiente.</p></div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-image">
+            <h4>
+              Proyecto
+              <br />
+              Estable
+            </h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+{{ end }}
