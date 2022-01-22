@@ -1,7 +1,16 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<title>{{ .Title }}</title>
+{{ if eq .RelPermalink "/404.html" }}
+  <title>Error 404: no encontrado - Proyecto Alejandría</title>
+  <meta name="robots" content="noindex" />
+{{ else }}
+  {{ if eq .Title .Site.Title }}
+    <title>{{ .Title }}</title>
+  {{ else }}
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+  {{ end }}
+{{ end }}
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
