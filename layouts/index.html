@@ -154,4 +154,22 @@
       </ul>
     </div>
   </section>
+
+  <div class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        {{ range .Site.Data.partners }}
+          <div class="col-md-3 col-sm-6 my-3">
+            <a href="{{ .url }}" title="{{ .name }}" target="_blank">
+              <img class="img-fluid img-brand d-block mx-auto"
+                   {{ if .square }}
+                     style="height: 6rem"
+                   {{ end }}
+                   src="/img/partners/{{ .img }}" alt="{{ .name }}" />
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 {{ end }}

@@ -6,3 +6,13 @@
   url: https://www.um.es/web/biologia/facultad/gestion/delegacion-de-estudiantes
   img: biologia.png
   square: true
+
+- name: Delegación de Alumnos de la Facultad de Química
+  url: https://www.um.es/web/quimica/conoce-la-facultad/estructura/representacion-estudiantes/delegacion-alumnos
+  img: delequium.png
+  square: true
+
+- name: Delegación de Alumnos de la Facultad de Matemáticas
+  url: https://www.um.es/web/matematicas/conoce-la-facultad/estructura/delegacion-estudiantes
+  img: damatem.png
+  square: true
