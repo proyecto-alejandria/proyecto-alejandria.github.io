@@ -16,3 +16,8 @@
   url: https://www.um.es/web/matematicas/conoce-la-facultad/estructura/delegacion-estudiantes
   img: damatem.png
   square: true
+
+- name: Delegación de Alumnos de la Facultad de Bellas Artes
+  url: https://www.um.es/web/bellasartes/perfil/estudiantes/representacion/delegacion
+  img: bbaa.png
+  square: true
