@@ -16,10 +16,11 @@
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-        {{ if .IsHome }}
-          <li class="nav-item"><a class="nav-link" href="#proyecto">Proyecto</a></li>
-          <li class="nav-item"><a class="nav-link" href="#hoja-ruta">Hoja de Ruta</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <li class="nav-item">
+            <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          </li>
         {{ end }}
       </ul>
     </div>
